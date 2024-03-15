@@ -55,5 +55,6 @@ def get_cards(booster):
             "supertypes": card.supertypes,
             "types": card.types,
             "rarity": card.rarity,
+            "layout": card.layout,
             "scryfall_id": card.identifiers.scryfall_id,
         }
